@@ -1,0 +1,7 @@
+.pakui-block {
+    background: white;
+    border-radius: 10px;
+    padding: var(--pakui-gutter);
+    transition: box-shadow 0.2s linear;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,31 @@
+.notice-pakcwcpg {
+    --pakcwcpg-color-highlight: rgba(64, 86, 244, 1);
+    --pakcwcpg-color-primary: rgba(114, 25, 90, 1);
+    padding-bottom: 15px !important;
+    padding-top: 15px !important;
+    font-family: 'Inter', system-ui, sans-serif;
+    font-weight: 500;
+    color: #000000;
+}
+
+.notice-pakcwcpg .actions {
+    margin-top: 15px;
+}
+
+.notice-pakcwcpg .actions button {
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    padding: 8px 14px;
+    transition: background-color 0.2s linear, color 0.2s linear;
+}
+
+.notice-pakcwcpg .actions button:hover {
+    background-color: var(--pakcwcpg-color-highlight);
+    color: #ffffff;
+}
+
+.notice-pakcwcpg [data-notice-action-id="notice_review_navigate_action"] {
+    background-color: var(--pakcwcpg-color-primary);
+    color: #ffffff;
+}

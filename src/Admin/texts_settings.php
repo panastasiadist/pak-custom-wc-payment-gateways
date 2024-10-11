@@ -1,0 +1,35 @@
+<?php
+
+defined( 'ABSPATH' ) || exit;
+
+return [
+	'action_failed'               => __( 'The action has failed.', 'pak-custom-wc-payment-gateways' ),
+	'cancel'                      => __( 'Cancel', 'pak-custom-wc-payment-gateways' ),
+	'close'                       => __( 'Close', 'pak-custom-wc-payment-gateways' ),
+	'configure'                   => __( 'Configure', 'pak-custom-wc-payment-gateways' ),
+	'confirm'                     => __( 'Confirm', 'pak-custom-wc-payment-gateways' ),
+	'confirmation'                => __( 'Confirmation', 'pak-custom-wc-payment-gateways' ),
+	'create'                      => __( 'Create', 'pak-custom-wc-payment-gateways' ),
+	'create_gateway'              => __( 'New Gateway', 'pak-custom-wc-payment-gateways' ),
+	'credits_author_part1'        => __( 'Crafted with love', 'pak-custom-wc-payment-gateways' ),
+	'credits_author_part2'        => __( 'by Panagiotis (Panos) Anastasiadis', 'pak-custom-wc-payment-gateways' ),
+	'credits_contribution_part1'  => __( 'Would you like to participate?', 'pak-custom-wc-payment-gateways' ),
+	'credits_contribution_part2'  => __( 'Your contribution is important.', 'pak-custom-wc-payment-gateways' ),
+	'credits_feedback_part1'      => __( 'Would you like to tell your opinion?', 'pak-custom-wc-payment-gateways' ),
+	'credits_feedback_part2'      => __( 'You are very welcome!', 'pak-custom-wc-payment-gateways' ),
+	'delete'                      => __( 'Delete', 'pak-custom-wc-payment-gateways' ),
+	'description'                 => __( 'Description', 'pak-custom-wc-payment-gateways' ),
+	'edit'                        => __( 'Edit', 'pak-custom-wc-payment-gateways' ),
+	'edit_gateway'                => __( 'Edit Gateway', 'pak-custom-wc-payment-gateways' ),
+	'field_required'              => __( 'The field is required.', 'pak-custom-wc-payment-gateways' ),
+	'gateway_id_duplicate'        => __( 'The id belongs to another gateway.', 'pak-custom-wc-payment-gateways' ),
+	'gateway_list_empty_greeting' => __( 'Oops! This place seems so empty.', 'pak-custom-wc-payment-gateways' ),
+	'gateway_list_empty_prompt'   => __( 'Create a custom gateway by clicking on the button above.', 'pak-custom-wc-payment-gateways' ),
+	'gateway_removal_message'     => __( "This action is irreversible and the gateway's configuration will be lost.", 'pak-custom-wc-payment-gateways' ),
+	'gateways'                    => __( 'Gateways', 'pak-custom-wc-payment-gateways' ),
+	'message'                     => __( 'Message', 'pak-custom-wc-payment-gateways' ),
+	'progress_message'            => __( 'Almost there...', 'pak-custom-wc-payment-gateways' ),
+	'settings'                    => __( 'Settings', 'pak-custom-wc-payment-gateways' ),
+	'title'                       => __( 'Title', 'pak-custom-wc-payment-gateways' ),
+	'update'                      => __( 'Update', 'pak-custom-wc-payment-gateways' ),
+];

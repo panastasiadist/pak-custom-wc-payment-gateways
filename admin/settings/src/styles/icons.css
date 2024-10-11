@@ -1,0 +1,28 @@
+[class*="pakui-icon-"] {
+    display: inline-block;
+    background-color: black;
+}
+
+.pakui-icon-trash {
+    mask: url('../assets/fa-regular-trash-can.svg') no-repeat center;
+}
+
+.pakui-icon-pencil {
+    mask: url('../assets/fa-solid-pencil.svg') no-repeat center;
+}
+
+.pakui-icon-xmark {
+    mask: url('../assets/fa-solid-xmark.svg') no-repeat center;
+}
+
+.pakui-icon-face-smile-wink {
+    mask: url('../assets/fa-regular-face-smile-wink.svg') no-repeat center;
+}
+
+.pakui-icon-gears {
+    mask: url('../assets/fa-solid-gears.svg') no-repeat center;
+}
+
+.pakui-icon-question {
+    mask: url('../assets/fa-solid-question.svg') no-repeat center;
+}

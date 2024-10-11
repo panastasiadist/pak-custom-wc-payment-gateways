@@ -1,0 +1,59 @@
+/* -----------------------------------------------------------------------------
+ * Resetting
+ * -------------------------------------------------------------------------- */
+
+:root {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    color-scheme: light;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+}
+
+#wpcontent {
+    padding-left: 0;
+}
+
+.app h1, h2, h3, h4, h5, h6, a, p, button {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+/* -----------------------------------------------------------------------------
+ * Global Styles
+ * -------------------------------------------------------------------------- */
+
+.app {
+    background: #f0f0f1;
+    text-align: center;
+}
+
+.app,
+.pakui-overlay {
+    color: #000000;
+    font-family: 'Inter', system-ui, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1;
+}
+
+body {
+    --pakui-animation-bounce-max-degree: 15deg;
+    --pakui-border-color-slight: rgba(0, 0, 0, 0.1);
+    --pakui-color-highlight-rgb: 64, 86, 244;
+    --pakui-color-highlight: rgb(var(--pakui-color-highlight-rgb));
+    --pakui-color-primary-rgb: 114, 25, 90;
+    --pakui-color-primary: rgb(var(--pakui-color-primary-rgb));
+    --pakui-gutter: 20px;
+    --pakui-text-color-slight: rgba(0, 0, 0, 0.4);
+}
+
+@media (min-width: 500px) {
+    body {
+        --pakui-dialog-width: 460px;
+    }
+}
+
+

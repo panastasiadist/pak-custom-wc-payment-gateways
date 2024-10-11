@@ -1,0 +1,299 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PAK: Custom Payment Gateways for WooCommerce\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-02 16:24+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.11; wp-6.6.1\n"
+"X-Domain: pak-custom-wc-payment-gateways"
+
+#. 1: Shipping zone title 2: Shipping method title and instance id
+#: src/GatewayProcessor.php:358
+#, php-format
+msgid "%1$s &ndash; %2$s"
+msgstr ""
+
+#. 1: Shipping method title 2: Shipping instance id
+#: src/GatewayProcessor.php:356
+#, php-format
+msgid "%1$s (#%2$s)"
+msgstr ""
+
+#: src/Admin/texts_settings.php:31
+msgid "Almost there..."
+msgstr ""
+
+#. 1: Shipping method title
+#: src/GatewayProcessor.php:342
+#, php-format
+msgid "Any &quot;%1$s&quot; method"
+msgstr ""
+
+#: src/Admin/texts_settings.php:15
+msgid "by Panagiotis (Panos) Anastasiadis"
+msgstr ""
+
+#: src/Admin/texts_settings.php:7
+msgid "Cancel"
+msgstr ""
+
+#: src/Admin/texts_settings.php:8
+msgid "Close"
+msgstr ""
+
+#: src/Admin/texts_settings.php:9
+msgid "Configure"
+msgstr ""
+
+#: src/Admin/texts_settings.php:10
+msgid "Confirm"
+msgstr ""
+
+#: src/Admin/texts_settings.php:11
+msgid "Confirmation"
+msgstr ""
+
+#: src/Admin/texts_settings.php:14
+msgid "Crafted with love"
+msgstr ""
+
+#: src/Admin/texts_settings.php:12
+msgid "Create"
+msgstr ""
+
+#: src/Admin/texts_settings.php:27
+msgid "Create a custom gateway by clicking on the button above."
+msgstr ""
+
+#: src/Admin/texts_settings.php:20
+msgid "Delete"
+msgstr ""
+
+#: src/GatewayProcessor.php:125 src/Admin/texts_settings.php:21
+msgid "Description"
+msgstr ""
+
+#. Description of the plugin
+msgid "Easily add simple, yet customizable payment gateways to WooCommerce."
+msgstr ""
+
+#: src/Admin/texts_settings.php:22
+msgid "Edit"
+msgstr ""
+
+#: src/Admin/texts_settings.php:23
+msgid "Edit Gateway"
+msgstr ""
+
+#: src/GatewayProcessor.php:167
+msgid "Enable for shipping methods"
+msgstr ""
+
+#: src/GatewayProcessor.php:179
+msgid "Enable for virtual orders"
+msgstr ""
+
+#: src/GatewayProcessor.php:180
+msgid "Enable the gateway for virtual orders"
+msgstr ""
+
+#: src/GatewayProcessor.php:107
+msgid "Enable this gateway"
+msgstr ""
+
+#: src/GatewayProcessor.php:105
+msgid "Enable/Disable"
+msgstr ""
+
+#: src/Admin/Provider.php:86
+msgid "Feedback / Review"
+msgstr ""
+
+#: src/Admin/texts_settings.php:29
+msgid "Gateways"
+msgstr ""
+
+#: src/Admin/Provider.php:87
+msgid "GitHub"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://anastasiadis.me"
+msgstr ""
+
+#: src/GatewayProcessor.php:111
+msgid "Icon URL"
+msgstr ""
+
+#: src/GatewayProcessor.php:132
+msgid "Instructions"
+msgstr ""
+
+#: src/GatewayProcessor.php:134
+msgid "Instructions that will be added to the thank you page and emails."
+msgstr ""
+
+#: src/Admin/Notices/ReviewRemindNotice.php:27
+msgid ""
+"It seems that you have been using PAK Custom Payment Gateways for "
+"WooCommerce for some time! Would you like to give it a 5-star review?"
+msgstr ""
+
+#: src/Admin/texts_settings.php:30
+msgid "Message"
+msgstr ""
+
+#: src/Admin/texts_settings.php:13
+msgid "New Gateway"
+msgstr ""
+
+#: src/Admin/Notices/Traits/NoticeReviewActions.php:17
+msgid "No / I've already done so"
+msgstr ""
+
+#: src/Admin/texts_settings.php:26
+msgid "Oops! This place seems so empty."
+msgstr ""
+
+#: src/GatewayProcessor.php:139
+msgid "Order Status"
+msgstr ""
+
+#: src/GatewayProcessor.php:141
+msgid "Order status to set when the checkout has been completed."
+msgstr ""
+
+#: src/GatewayProcessor.php:157
+msgid "Order's Max Amount"
+msgstr ""
+
+#: src/GatewayProcessor.php:147
+msgid "Order's Min Amount"
+msgstr ""
+
+#: src/GatewayProcessor.php:358
+msgid "Other locations"
+msgstr ""
+
+#. Name of the plugin
+msgid "PAK Custom Payment Gateways for WooCommerce"
+msgstr ""
+
+#. Author of the plugin
+msgid "Panagiotis (Panos) Anastasiadis"
+msgstr ""
+
+#: src/GatewayProcessor.php:127
+msgid "Payment method description that the customer will see on your checkout."
+msgstr ""
+
+#: src/Admin/Notices/Traits/NoticeReviewActions.php:18
+msgid "Remind me another time"
+msgstr ""
+
+#: src/GatewayProcessor.php:175
+msgid "Select shipping methods"
+msgstr ""
+
+#: src/Admin/Provider.php:100 src/Admin/texts_settings.php:32
+msgid "Settings"
+msgstr ""
+
+#: src/Admin/texts_settings.php:6
+msgid "The action has failed."
+msgstr ""
+
+#: src/Admin/texts_settings.php:24
+msgid "The field is required."
+msgstr ""
+
+#: src/Admin/texts_settings.php:25
+msgid "The id belongs to another gateway."
+msgstr ""
+
+#: src/GatewayProcessor.php:159
+msgid ""
+"The maximum amount of an order for the gateway to become available. Set it "
+"to 0 to disable the restriction."
+msgstr ""
+
+#: src/GatewayProcessor.php:149
+msgid ""
+"The minimum amount of an order for the gateway to become available. Set it "
+"to 0 to disable the restriction."
+msgstr ""
+
+#: src/Admin/texts_settings.php:28
+msgid ""
+"This action is irreversible and the gateway's configuration will be lost."
+msgstr ""
+
+#: src/GatewayProcessor.php:113
+msgid ""
+"This controls the image which the user sees during checkout. Leave it blank "
+"to disable this feature."
+msgstr ""
+
+#: src/GatewayProcessor.php:120
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+
+#: src/GatewayProcessor.php:118 src/Admin/texts_settings.php:33
+msgid "Title"
+msgstr ""
+
+#: src/Admin/texts_settings.php:34
+msgid "Update"
+msgstr ""
+
+#: src/GatewayProcessor.php:181
+msgid ""
+"Whether the gateway is available for orders containing virtual products only."
+msgstr ""
+
+#: src/GatewayProcessor.php:171
+msgid ""
+"Whether the gateway is available for specific shipping methods only. Leave "
+"it blank to enable the gateway for all methods."
+msgstr ""
+
+#: src/Admin/texts_settings.php:16
+msgid "Would you like to participate?"
+msgstr ""
+
+#: src/Admin/texts_settings.php:18
+msgid "Would you like to tell your opinion?"
+msgstr ""
+
+#: src/Admin/Notices/Traits/NoticeReviewActions.php:16
+msgid "Yes, I'd love so!"
+msgstr ""
+
+#: src/Admin/texts_settings.php:19
+msgid "You are very welcome!"
+msgstr ""
+
+#: src/Admin/Notices/FirstOrderWithGatewayNotice.php:32
+msgid ""
+"You have received your first order using PAK Custom Payment Gateways for "
+"WooCommerce! Would you like to give it a 5-star review?"
+msgstr ""
+
+#: src/Admin/Notices/FirstTimeGatewayConfigurationNotice.php:29
+msgid ""
+"You have used PAK Custom Payment Gateways for WooCommerce to create your "
+"first custom gateway! Would you like to give it a 5-star review?"
+msgstr ""
+
+#: src/Admin/texts_settings.php:17
+msgid "Your contribution is important."
+msgstr ""

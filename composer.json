@@ -1,0 +1,29 @@
+{
+    "name": "panastasiadist/pak-custom-wc-payment-gateways",
+    "version": "1.0.0",
+    "description": "Easily add simple, yet customizable payment gateways to WooCommerce.",
+    "type": "wordpress-plugin",
+    "keywords": ["wordpress", "woocommerce", "payments", "gateways"],
+    "require": {
+        "kucrut/vite-for-wp": "^0.9.3"
+    },
+    "license": "GPLv2 or later",
+    "autoload": {
+        "psr-4": {
+            "panastasiadist\\PAK_Custom_WC_Payment_Gateways\\": "src/"
+        },
+        "files": [
+            "src/Functions/array_find.php",
+            "src/Functions/apply_plugin_filters.php",
+            "src/Functions/get_prefixed_table.php",
+            "src/Functions/ksort_recursively.php",
+            "src/Functions/string_to_snake_case.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Panagiotis (Panos) Anastasiadis",
+            "email": "panos.anastasiadis@outlook.com"
+        }
+    ]
+}

@@ -1,0 +1,58 @@
+/* -----------------------------------------------------------------------------
+ * Solid Buttons
+ * -------------------------------------------------------------------------- */
+
+.pakui-button {
+    border: none;
+    cursor: pointer;
+    padding: 10px 14px;
+}
+
+.pakui-button.pakui-primary {
+    color: #ffffff;
+    transition: background-color 0.2s linear;
+    background-color: var(--pakui-color-primary);
+}
+
+.pakui-button.pakui-primary:not(:disabled):hover {
+    background-color: var(--pakui-color-highlight);
+}
+
+.pakui-button.pakui-secondary {
+    background-color: rgba(0, 0, 0, 0.03);
+    transition: background-color 0.2s linear;
+}
+
+.pakui-button.pakui-secondary:not(:disabled):hover {
+    color: #ffffff;
+    background-color: var(--pakui-color-highlight);
+}
+
+.pakui-button[disabled] {
+    opacity: 0.5;
+}
+
+/* -----------------------------------------------------------------------------
+ * Icon Buttons
+ * -------------------------------------------------------------------------- */
+
+.pakui-button-icon {
+    border: none;
+    cursor: pointer;
+    background: transparent;
+}
+
+.pakui-button-icon,
+.pakui-button-icon [class*="pakui-icon-"] {
+    padding: 0;
+    line-height: 1;
+    transition: color 0.2s linear, background-color 0.2s linear;
+}
+
+.pakui-button-icon:hover {
+    color: var(--pakui-color-highlight);
+}
+
+.pakui-button-icon:hover [class*="pakui-icon-"] {
+    background: var(--pakui-color-highlight);
+}
